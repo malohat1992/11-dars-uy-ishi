@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.containeir{
+    width: 1200px;
+    margin: 0 auto;
+}
+.card1{
+    top: 3%;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    right: 3%;
+    background: rgb(180,58,161);
+background: linear-gradient(112deg, rgba(180,58,161,1) 56%, rgba(253,29,45,1) 90%, rgba(252,176,69,1) 100%);
+    
+}
+.card2{
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    border: 6px solid white;
+    background: rgb(202, 198, 202);
+    left:4%;
+    bottom: 11%;
+    
+}
+.card3{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    bottom: 2%;
+   
+    left: 41%;
+    background: rgb(5, 228, 105);
+    border: 6px solid white;
+
+    
+}
+.card3:hover{
+    background: hsl(0, 96%, 46%); 
+
+}
+.card4{
+    top: 3%;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    right: 3%;
+    background: rgb(180,58,161);
+background: linear-gradient(112deg, rgba(180,58,161,1) 56%, rgba(253,29,45,1) 90%, rgba(252,176,69,1) 100%);
+    
+}
+.card5{
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    border: 6px solid white;
+    background: rgb(202, 198, 202);
+    left:4%;
+    bottom: 11%;
+    
+}
+.card6{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    bottom: 2%;
+    left: 41%;
+    background: #e40c05;
+    border: 6px solid white;
+
+    
+}
+.card6:hover{
+    background: rgb(5, 228, 105); 
+
+}
+.wrapper{
+    width: 398px;
+    height: 430px;
+    position: relative;
+    
+}
+.card1, .card2, .card3{
+ position: absolute;
+}
+.card4, .card5, .card6{
+    position: absolute;
+   }
+.wrapper2{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
